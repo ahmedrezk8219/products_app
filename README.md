@@ -1,17 +1,32 @@
-# api
+# 🛒 Products Catalog App
 
-A new Flutter project.
+A professional Flutter application that fetches and displays products from the [FakeStoreAPI](https://fakestoreapi.com/). Built with a focus on clean architecture, efficient state management, and an excellent user experience.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+* **RESTful API Integration:** Seamlessly fetches product data using `Dio`.
+* **Robust State Management:** Utilizes `Provider` for reactive and efficient UI updates.
+* **Localized Error Handling:** Custom Arabic error messages for network timeouts and connection resets (including VPN guidance for restricted regions).
+* **Responsive UI:** A clean, modern GridView layout that adapts gracefully.
+* **Security Bypass:** Configured to handle specific SSL/TLS certificate issues during API calls.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* **Framework:** [Flutter](https://flutter.dev/)
+* **Language:** Dart
+* **State Management:** Provider
+* **Networking:** Dio
+* **API:** FakeStoreAPI
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🚀 Getting Started
+
+### Prerequisites
+* Flutter SDK (Latest Version)
+* A code editor like VS Code or Android Studio
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/ahmedrezk8219/products_app.git](https://github.com/ahmedrezk8219/products_app.git)

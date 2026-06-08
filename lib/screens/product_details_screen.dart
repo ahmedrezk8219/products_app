@@ -24,7 +24,6 @@ class ProductDetailsScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // عرض الصورة بشكل فخم مع خلفية هادئة
             Container(
               width: double.infinity,
               height: 350,
